@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="cq2">
+	<table_structure name="outenserver">
+		<field Field="id" Type="smallint(1) unsigned zerofill" Null="NO" Key="PRI" Default="0" Extra="" />
+		<field Field="ServerName" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="ServerIP" Type="varchar(15)" Null="YES" Key="" Extra="" />
+		<field Field="ServerPort" Type="int(1) unsigned" Null="YES" Key="" Extra="" />
+		<field Field="FlashName" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="FlashIcon" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="FlashHint" Type="varchar(128)" Null="YES" Key="" Extra="" />
+		<field Field="Child" Type="tinyint(1) unsigned zerofill" Null="NO" Key="" Default="0" Extra="" />
+		<key Table="outenserver" Non_unique="0" Key_name="id" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="97" Null="" Index_type="BTREE" Comment="" />
+		<options Name="outenserver" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="97" Avg_row_length="57" Data_length="5620" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2008-11-26 08:33:09" Update_time="2009-08-24 09:30:03" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="outenserver">
+	<row>
+		<field name="id">0</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon"></field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+	</row>
+	<row>
+		<field name="id">1</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group1</field>
+		<field name="FlashIcon">Group11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+	</row>
+	<row>
+		<field name="id">101</field>
+		<field name="ServerName">Dark</field>
+		<field name="ServerIP">89.45.83.105</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Dark</field>
+		<field name="FlashIcon">Group2/server4.swf</field>
+		<field name="FlashHint">Dragon</field>
+		<field name="Child">0</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
